@@ -1,0 +1,19 @@
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #302f27;
+  background: #f7f1e3;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --cream: #f7f1e3;
+  --paper: #fffdf7;
+  --ink: #302f27;
+  --muted: #777467;
+  --green: #31513b;
+  --green-dark: #243b2b;
+  --olive: #71805b;
+  --yellow: #e6b83f;
+  --brown: #6b4f35;
+  --clay: #b86f45;
+  --line: #e5dccb;
+}

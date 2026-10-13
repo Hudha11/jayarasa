@@ -1,0 +1,20 @@
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 90px; }
+body { margin: 0; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; }
+img { display: block; max-width: 100%; }
+h1, h2, h3, p { margin-top: 0; }
+.site-shell { overflow: hidden; }
+.eyebrow { display: flex; align-items: center; gap: 10px; color: var(--clay); font-size: 9px; font-weight: 700; letter-spacing: .17em; text-transform: uppercase; }
+.eyebrow-line { width: 27px; height: 1px; background: currentColor; }
+.eyebrow-light { color: #edc47d; }
+.eyebrow-centered { justify-content: center; }
+.button { display: inline-flex; align-items: center; justify-content: center; gap: 13px; padding: 15px 20px; border-radius: 3px; font-size: 11px; font-weight: 700; transition: .2s ease; }
+.button-primary { background: var(--green); color: #fffdf7; }
+.button-primary:hover { background: #426548; transform: translateY(-1px); }
+.button-dark { background: var(--green); color: #fffdf7; margin-top: 7px; }
+.button-dark:hover { background: var(--green-dark); }
+.button-cream { background: #fff4df; color: var(--green-dark); }
+.button-cream:hover { background: #f2dfb8; }
+.section-pad { padding: 96px 7.2%; }

@@ -1,0 +1,20 @@
+.announcement { min-height: 35px; padding: 7px 16px; background: var(--green-dark); color: #f7f1e3; display: flex; align-items: center; justify-content: center; gap: 9px; font-size: 10px; letter-spacing: .04em; text-align: center; }
+.announcement svg { color: var(--yellow); }
+.header { height: 86px; display: flex; align-items: center; justify-content: space-between; padding: 0 7.2%; border-bottom: 1px solid #31513b20; background: var(--cream); position: sticky; top: 0; z-index: 10; }
+.brand { display: inline-flex; align-items: center; gap: 10px; }
+.brand-mark { height: 42px; width: 42px; border: 1px solid #c8cbb9; border-radius: 50%; display: grid; place-items: center; color: var(--green); }
+.brand-copy { display: flex; flex-direction: column; gap: 3px; }
+.brand-copy strong { font-family: 'Playfair Display', serif; font-size: 27px; line-height: 1; color: var(--green); letter-spacing: -.8px; }
+.brand-copy strong span { color: var(--clay); }
+.brand-copy small { font-size: 7px; letter-spacing: .12em; font-weight: 700; color: #858475; }
+.nav { display: flex; align-items: center; gap: 25px; font-size: 11px; font-weight: 600; color: #55574b; }
+.nav > a:not(.nav-cta):hover { color: var(--clay); }
+.nav-cta { display: flex; align-items: center; gap: 9px; background: var(--green); color: white; padding: 13px 16px; border-radius: 3px; transition: .2s; }
+.nav-cta:hover { background: #426548; transform: translateY(-1px); }
+.mobile-menu { display: none; background: none; border: 0; color: var(--green); }
+.footer { background: var(--cream); padding: 30px 7.2% 0; display: grid; grid-template-columns: 1fr 1fr; align-items: center; }
+.footer > p { text-align: right; font-family: 'Playfair Display', serif; font-style: italic; font-size: 16px; color: var(--muted); margin: 0; }
+.footer-bottom { grid-column: 1 / -1; display: flex; justify-content: space-between; gap: 20px; border-top: 1px solid var(--line); margin-top: 26px; padding: 18px 0; font-size: 9px; color: #898779; }
+.footer-bottom a { color: var(--green); font-weight: 700; }
+.floating-wa { position: fixed; bottom: 22px; right: 22px; z-index: 9; background: #287a4b; color: #fff; display: flex; align-items: center; gap: 9px; padding: 13px 17px; border-radius: 40px; box-shadow: 0 8px 25px #172b1c30; font-size: 11px; font-weight: 700; transition: .2s; }
+.floating-wa:hover { transform: translateY(-3px); background: #1e663d; }

@@ -1,0 +1,270 @@
+@media (max-width: 1000px) {
+  .header {
+    padding: 0 5%;
+  }
+  .nav {
+    gap: 15px;
+  }
+  .hero {
+    padding-left: 5%;
+    padding-right: 5%;
+    gap: 3%;
+  }
+  .hero h1 {
+    font-size: 55px;
+  }
+  .hero-visual {
+    height: 390px;
+  }
+  .section-pad {
+    padding: 78px 5%;
+  }
+  .story-section,
+  .values-section,
+  .contact-section {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  .product-image-wrap {
+    height: 190px;
+  }
+  .product-info {
+    padding: 17px 14px;
+  }
+  .product-info h3 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 760px) {
+  .announcement {
+    font-size: 9px;
+  }
+  .header {
+    height: 72px;
+    padding: 0 5%;
+  }
+  .brand-mark {
+    height: 37px;
+    width: 37px;
+  }
+  .brand-copy strong {
+    font-size: 24px;
+  }
+  .mobile-menu {
+    display: block;
+    cursor: pointer;
+  }
+  .nav {
+    display: none;
+    position: absolute;
+    top: 72px;
+    left: 0;
+    right: 0;
+    background: var(--cream);
+    padding: 18px 6% 24px;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    border-bottom: 1px solid var(--line);
+    box-shadow: 0 15px 20px #00000008;
+  }
+  .nav-open {
+    display: flex;
+  }
+  .nav > a:not(.nav-cta) {
+    padding: 13px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .nav-cta {
+    justify-content: center;
+    margin-top: 15px;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 48px 6% 65px;
+    gap: 32px;
+  }
+  .hero h1 {
+    font-size: clamp(43px, 10vw, 61px);
+  }
+  .hero-description {
+    font-size: 12px;
+  }
+  .hero-visual {
+    height: 350px;
+    width: 90%;
+    justify-self: center;
+  }
+  .hero-bottom-note {
+    left: 6%;
+    bottom: 20px;
+  }
+  .heritage-section {
+    grid-template-columns: 1fr;
+    gap: 21px;
+    padding: 25px 8%;
+  }
+  .section-pad {
+    padding: 65px 6%;
+  }
+  .section-heading {
+    display: block;
+    margin-bottom: 28px;
+  }
+  .section-heading h2 {
+    font-size: 43px;
+  }
+  .section-heading > p {
+    margin-top: 16px;
+  }
+  .product-toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .product-tabs {
+    width: 100%;
+    gap: 18px;
+  }
+  .product-count {
+    display: none;
+  }
+  .product-grid {
+    grid-template-columns: 1fr;
+    gap: 17px;
+  }
+  .product-image-wrap {
+    height: 260px;
+  }
+  .product-info {
+    padding: 20px;
+  }
+  .product-info > p {
+    min-height: auto;
+  }
+  .catalog-note {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .catalog-note p {
+    flex-basis: calc(100% - 55px);
+  }
+  .catalog-note > a {
+    margin-left: 50px;
+  }
+  .story-section {
+    grid-template-columns: 1fr;
+    gap: 35px;
+    padding: 62px 7%;
+  }
+  .story-visual {
+    height: 330px;
+    width: 94%;
+  }
+  .story-copy h2 {
+    font-size: 42px;
+  }
+  .values-section {
+    padding: 62px 7%;
+  }
+  .values-heading h2 {
+    font-size: 42px;
+  }
+  .values-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin: 30px 0;
+  }
+  .value-card {
+    padding: 20px;
+  }
+  .value-card h3 {
+    margin-top: 19px;
+  }
+  .vision-mission {
+    grid-template-columns: 1fr;
+    gap: 27px;
+  }
+  .credentials-grid {
+    grid-template-columns: 1fr;
+  }
+  .credentials-panel {
+    padding: 23px;
+  }
+  .contact-section {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 60px 7%;
+  }
+  .contact-copy h2 {
+    font-size: 45px;
+  }
+  .footer {
+    padding: 26px 6% 0;
+    grid-template-columns: 1fr;
+    gap: 13px;
+  }
+  .footer > p {
+    text-align: left;
+    font-size: 14px;
+  }
+  .footer-bottom {
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .floating-wa {
+    right: 13px;
+    bottom: 13px;
+    padding: 12px 14px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
+
+/* ===== MOBILE TYPOGRAPHY UPDATE ===== */
+@media (max-width: 760px) {
+  .hero h1 {
+    font-size: clamp(42px, 10vw, 56px);
+    line-height: 1.12;
+  }
+
+  .section-heading h2,
+  .story-copy h2,
+  .values-heading h2,
+  .contact-copy h2 {
+    font-size: clamp(36px, 9vw, 46px);
+    line-height: 1.2;
+  }
+
+  .hero-description,
+  .section-heading > p,
+  .product-info > p,
+  .story-copy > p,
+  .values-heading > p,
+  .vision-mission li,
+  .contact-copy > p {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+
+  .product-info h3 {
+    font-size: 22px;
+  }
+
+  .heritage-item h3,
+  .timeline-item h3,
+  .value-card h3 {
+    font-size: 18px;
+  }
+
+  .button {
+    font-size: 14px;
+  }
+}
