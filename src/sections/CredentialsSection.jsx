@@ -15,9 +15,8 @@ export default function CredentialsSection() {
           </h2>
         </div>
         <p>
-          Company profile Jaya Rasa mencatat sejumlah penghargaan dan dokumen
-          perizinan. Informasi berikut ditampilkan sebagai ringkasan profil
-          perusahaan.
+          Jaya Rasa mencatat sejumlah penghargaan dan dokumen perizinan.
+          Informasi berikut ditampilkan sebagai ringkasan profil UMKM.
         </p>
       </div>
       <div className="credentials-grid">
@@ -31,6 +30,9 @@ export default function CredentialsSection() {
               <li key={award}>{award}</li>
             ))}
           </ul>
+          {/* <p className="small-note">
+            Daftar ringkas berdasarkan company profile yang diberikan.
+          </p> */}
         </div>
         <div className="credentials-panel credentials-panel-light">
           <span className="panel-icon">
