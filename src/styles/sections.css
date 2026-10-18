@@ -816,3 +816,44 @@ h2 em {
 .button {
   font-size: 14px;
 }
+
+/* Teks penghargaan */
+.credentials-award-list li {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+/* Teks NIB dan nama sertifikasi */
+.credentials-certificate-list li {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.credentials-certificate-list li span {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+/* Teks sertifikasi
+.credentials-credential-list li {
+  font-size: 16px;
+  line-height: 1.8;
+} */
+
+/* Perbesar teks penghargaan */
+.credential-card h3,
+.credential-card p,
+.credential-item h3,
+.credential-item p {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* Perbesar teks NIB dan nama sertifikasi */
+.credential-card li,
+.credential-item li,
+.credential-card span,
+.credential-item span {
+  font-size: 14px;
+  line-height: 1.7;
+}
